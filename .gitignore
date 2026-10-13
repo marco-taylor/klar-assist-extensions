@@ -10,3 +10,14 @@ coverage.xml
 secrets.yaml
 configuration.yaml
 validation-results/
+
+# Private development and validation artifacts
+/tests/
+/tools/
+/development-reference/
+/klar-assist-private/
+/installation-tests/
+/integration-tests/
+/HACS_READINESS_REPORT.md
+/RELEASE_CHECKLIST.md
+/backups/

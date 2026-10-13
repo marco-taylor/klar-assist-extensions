@@ -59,17 +59,9 @@ In der getesteten HA-Version 2026.10.1 benötigt `weather.get_forecasts` zusätz
 
 Delegation erhält Text, Sprache, Context, Gesprächs-ID und die von HA unterstützten Geräte-/Satelliteninformationen. Der Ziel-Agent ist selbst für seine Rechteprüfung verantwortlich. Klar kann die regionale Antwortsprache etwa von de-DE auf de normalisieren; die Extension gibt seine Antwort unverändert zurück. Systemcontexts von HA bleiben erhalten, werden aber niemals als Ersatz für abgewiesene Benutzer erzeugt.
 
-## Tests und Entwicklung
+## Validierung
 
-Alle Testdaten sind synthetisch. Testtokens werden ausschließlich während der Testausführung erzeugt. Die Tests verwenden eigene temporäre HA-Konfigurationen, lokale Referenz-Agenten, Loopback-Parse-Server und HA-Testweatherentities. Sie greifen nicht auf die Konfiguration einer laufenden HA-Installation zu und lösen keine Geräteaktionen aus.
-
-Mit Python 3.14 und installiertem Home Assistant 2026.10.1:
-
-```bash
-python tools/run_tests.py
-```
-
-Die optionalen Docker-Runner führen nur einen separaten Testprozess mit den vorhandenen HA-Bibliotheken aus; sie starten keinen Container neu. Die GitHub-Workflows sind vorbereitet: isolierte Tests, offizielles hassfest und HACS Action. Sie werden erst in einem späteren GitHub-Repository ausgeführt.
+Das öffentliche Repository enthält ausschließlich die Integration, Installationsdokumentation und Veröffentlichungsmetadaten. Isolierte Tests und Entwicklungswerkzeuge werden separat aufbewahrt. Die GitHub-Workflows prüfen die Integration mit offiziellem hassfest und der HACS Action.
 
 ## Entfernen und Rollback
 
