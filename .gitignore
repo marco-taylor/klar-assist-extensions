@@ -12,7 +12,6 @@ configuration.yaml
 validation-results/
 
 # Private development and validation artifacts
-/tests/
 /tools/
 /development-reference/
 /klar-assist-private/
@@ -21,3 +20,26 @@ validation-results/
 /HACS_READINESS_REPORT.md
 /RELEASE_CHECKLIST.md
 /backups/
+
+# Local-only test and maintenance output; public automated tests remain allowed
+/local-tests/
+/benchmarks/
+/debug/
+/reports/
+/migration-reports/
+/production-phase*/
+/phase1_tests/
+/phase2_tests/
+/REPORT.md
+/*_REPORT.md
+*.bak
+*.backup
+*.patch
+*.tmp
+*.swp
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+*.pem
+*.key
+id_ed25519*
