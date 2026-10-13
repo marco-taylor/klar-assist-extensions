@@ -1,0 +1,12 @@
+{
+  "title": "Klar Assist Extensions",
+  "config": {
+    "step": {"user": {"title": "Klar Assist Extensions", "description": "Offiziellen Klar-Agent und lokale Parse-API auswählen. Die Assist-Pipeline wird nicht verändert.", "data": {"target_agent": "Offizieller Klar-Agent", "klar_url": "Klar-API-URL", "klar_token": "Klar-API-Token", "weather_enabled": "Weather aktivieren"}}},
+    "error": {"invalid_agent": "Einen verfügbaren offiziellen Klar-Conversation-Agent auswählen.", "invalid_url": "Eine HTTP(S)-Adresse ohne Zugangsdaten, Pfad oder Query eingeben."},
+    "abort": {"single_instance_allowed": "Es wird nur eine Instanz unterstützt."}
+  },
+  "options": {
+    "step": {"init": {"title": "Erweiterungsmodule", "data": {"target_agent": "Offizieller Klar-Agent", "klar_url": "Klar-API-URL", "klar_token": "Klar-API-Token", "weather_enabled": "Weather aktivieren"}}},
+    "error": {"invalid_agent": "Einen verfügbaren offiziellen Klar-Conversation-Agent auswählen.", "invalid_url": "Eine gültige lokale Klar-API-Adresse eingeben."}
+  }
+}

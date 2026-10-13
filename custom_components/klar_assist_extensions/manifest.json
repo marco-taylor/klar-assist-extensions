@@ -1,0 +1,23 @@
+{
+  "domain": "klar_assist_extensions",
+  "name": "Klar Assist Extensions",
+  "after_dependencies": [
+    "klar_nlu"
+  ],
+  "codeowners": [
+    "@marco-taylor"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "conversation",
+    "weather"
+  ],
+  "documentation": "https://github.com/marco-taylor/klar-assist-extensions",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/marco-taylor/klar-assist-extensions/issues",
+  "quality_scale": "custom",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.2.0"
+}

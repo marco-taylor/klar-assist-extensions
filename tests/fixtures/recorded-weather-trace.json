@@ -1,0 +1,218 @@
+[
+  {
+    "text": "Wie wird das Wetter übermorgen?",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  },
+  {
+    "text": "Wie wird übermorgen das Wetter?",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  },
+  {
+    "text": "Wetter übermorgen",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  },
+  {
+    "text": "Wie wird das Wetter übermorgen?“",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  },
+  {
+    "text": "Wie wird übermorgen das Wetter?“",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  },
+  {
+    "text": "Wetter übermorgen“",
+    "fixture_origin": "synthetic; no production data",
+    "trace": [
+      {
+        "slots": {
+          "entity_id": {
+            "value": "weather.openweathermap"
+          },
+          "domain": {
+            "value": "weather"
+          },
+          "weather_ask": {
+            "value": "today"
+          },
+          "name": {
+            "value": "Test weather"
+          }
+        }
+      },
+      {
+        "selected_forecast": {
+          "datetime": "2026-10-14T12:00:00+02:00",
+          "condition": "rainy",
+          "temperature": 20,
+          "templow": 12,
+          "precipitation": 0,
+          "precipitation_probability": 0,
+          "humidity": 70,
+          "cloud_coverage": 70,
+          "wind_speed": 20
+        },
+        "answer": "Übermorgen wird es regnerisch. Die Temperaturen liegen zwischen 12 und 20 Grad. Die Regenwahrscheinlichkeit beträgt 0 Prozent. Erwartet werden etwa 0 Millimeter Niederschlag. Die Luftfeuchtigkeit liegt bei 70 Prozent. Es ist stark bewölkt. Es weht ein mäßiger Wind."
+      }
+    ]
+  }
+]

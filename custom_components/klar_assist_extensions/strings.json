@@ -1,0 +1,12 @@
+{
+  "title": "Klar Assist Extensions",
+  "config": {
+    "step": {"user": {"title": "Klar Assist Extensions", "description": "Select the official Klar agent and its local parse API. This does not change your Assist pipeline.", "data": {"target_agent": "Official Klar agent", "klar_url": "Klar API URL", "klar_token": "Klar API token", "weather_enabled": "Enable Weather"}}},
+    "error": {"invalid_agent": "Select an available official Klar conversation entity.", "invalid_url": "Enter an HTTP(S) origin without credentials, path or query."},
+    "abort": {"single_instance_allowed": "Only one instance is supported."}
+  },
+  "options": {
+    "step": {"init": {"title": "Extension modules", "data": {"target_agent": "Official Klar agent", "klar_url": "Klar API URL", "klar_token": "Klar API token", "weather_enabled": "Enable Weather"}}},
+    "error": {"invalid_agent": "Select an available official Klar conversation entity.", "invalid_url": "Enter a valid local Klar API URL."}
+  }
+}
