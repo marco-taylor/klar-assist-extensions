@@ -2,6 +2,8 @@
 
 Ein zusätzlicher modularer Home-Assistant-Conversation-Agent mit deterministischen deutschen Wetterantworten. Nicht zuständige Anfragen werden an den konfigurierten offiziellen Klar-Agent weitergeleitet. Domain: `klar_assist_extensions`, Version 0.2.0.
 
+[![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=marco-taylor&repository=klar-assist-extensions&category=integration)
+
 **Voraussetzung:** Die [offizielle Klar-NLU-Home-Assistant-Integration](https://github.com/FABBricate-IT-Solutions/klar-ha-nlu) muss separat installiert und konfiguriert sein. Ihr Conversation-Agent muss verfügbar sein. Diese Extension verändert oder patcht weder Klar-Dateien noch den Klar-Docker-Container. Beide Projekte bleiben unabhängig aktualisierbar.
 
 ## Funktionsumfang
@@ -34,9 +36,17 @@ Ein späteres Calendar-Modul kann über dieselbe Modulverwaltung ergänzt werden
 
 ## Installation und Einrichtung
 
-Bestätigtes Veröffentlichungsziel: [marco-taylor/klar-assist-extensions](https://github.com/marco-taylor/klar-assist-extensions). Codeowner: @marco-taylor. [Issues](https://github.com/marco-taylor/klar-assist-extensions/issues). Das Repository wird erst nach ausdrücklicher Freigabe erstellt; diese Links sind daher vor der Ersterstellung noch nicht erreichbar.
+Repository: [marco-taylor/klar-assist-extensions](https://github.com/marco-taylor/klar-assist-extensions). Codeowner: @marco-taylor. [Issues](https://github.com/marco-taylor/klar-assist-extensions/issues).
 
-Nach Veröffentlichung kann `https://github.com/marco-taylor/klar-assist-extensions` in HACS als **Integration / Custom Repository** hinzugefügt werden. HACS installiert ausschließlich den eigenen Domainordner. Nach der regulären HA-Erkennung unter Einstellungen → Geräte & Dienste die Integration **Klar Assist Extensions** hinzufügen.
+Voraussetzung sind HACS und die separat installierte und konfigurierte offizielle Klar-NLU-Integration.
+
+1. Oben auf **Add to HACS** klicken und bei Bedarf die eigene Home-Assistant-Adresse auswählen.
+2. Das Repository in HACS als benutzerdefinierte **Integration** hinzufügen.
+3. **Klar Assist Extensions** über HACS herunterladen/installieren. HACS installiert ausschließlich den eigenen Domainordner.
+4. Home Assistant entsprechend der HACS-Anweisung neu starten.
+5. Unter **Einstellungen → Geräte & Dienste → Integration hinzufügen** die Integration **Klar Assist Extensions** einrichten.
+
+Alternativ in HACS manuell `https://github.com/marco-taylor/klar-assist-extensions` als benutzerdefiniertes Repository der Kategorie **Integration** hinzufügen. Der Button verwendet den [offiziellen My-Home-Assistant-Link für HACS](https://hacs.dev/docs/use/my/).
 
 Konfigurierbar sind:
 
